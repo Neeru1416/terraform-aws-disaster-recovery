@@ -1,0 +1,103 @@
+# AWS Infrastructure Source of Truth (SOT) & Disaster Recovery Framework
+
+## Overview
+
+This repository demonstrates an Infrastructure Source of Truth (SOT) and Disaster Recovery framework built using AWS, Terraform, and AWS CLI.
+
+The solution provides:
+
+* Automated AWS infrastructure inventory collection
+* Daily infrastructure backup snapshots
+* Infrastructure discovery and audit reporting
+* Terraform-based Disaster Recovery (DR)
+* Multi-account and multi-region support
+* Infrastructure as Code (IaC) best practices
+
+## Key Features
+
+### Infrastructure Inventory
+
+* Daily collection of AWS resources using AWS APIs
+* Automated backup generation and archival
+* Region-wise infrastructure snapshots
+* Audit and compliance reporting
+
+### Disaster Recovery Automation
+
+* Terraform-based Infrastructure as Code
+* Recreation of VPCs, networking, compute, and database resources
+* Cross-region disaster recovery support
+* Infrastructure recovery automation
+
+### Cloud Services Covered
+
+* Amazon EC2
+* Amazon VPC
+* Amazon RDS / Aurora
+* Amazon S3
+* Route 53
+* Elastic Load Balancer (ALB)
+* IAM
+* SNS
+* CloudWatch
+
+## Repository Structure
+
+```text
+project/
+├── README.md
+├── scripts/
+│   ├── collect_resources.sh
+│   └── backup_resources.sh
+├── backups/
+├── terraform/
+│   ├── discovery/
+│   ├── modules/
+│   └── environments/
+└── docs/
+```
+
+## Technology Stack
+
+* AWS
+* Terraform
+* AWS CLI
+* Bash Shell Scripting
+* Git
+* Bitbucket/GitHub
+* Linux
+
+## Workflow
+
+1. Collect AWS resource inventory using AWS CLI.
+2. Store infrastructure snapshots as JSON files.
+3. Archive backups automatically.
+4. Generate Infrastructure as Code configurations.
+5. Recreate infrastructure using Terraform when required.
+6. Support disaster recovery across AWS regions.
+
+## Project Highlights
+
+* Automated infrastructure inventory collection.
+* Daily backup and archival process.
+* Multi-account and multi-region architecture.
+* Terraform-based disaster recovery framework.
+* Infrastructure recovery with significantly reduced recovery time.
+* Safe, audit-friendly, and production-oriented design.
+
+## Skills Demonstrated
+
+* AWS Cloud Administration
+* Terraform
+* Infrastructure as Code (IaC)
+* Disaster Recovery Planning
+* AWS CLI Automation
+* Shell Scripting
+* Cloud Monitoring
+* DevOps Automation
+* Infrastructure Auditing
+* Linux Administration
+* Multi-Region AWS Architecture
+
+```
+```
